@@ -1,0 +1,1149 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Noto+Sans+Hebrew:wght@200&display=swap');
+
+
+body {
+  
+    direction: rtl;
+    width: 1280px;
+    margin: 0 auto;
+    overflow-x: hidden; 
+}
+
+
+.notActive {
+    cursor: not-allowed
+}
+
+#containerhome {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-image: url(../pictures/bring.png);
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+    background-image: url(../pictures/bring.png);
+    height: auto;
+    position: absolute;
+}
+
+#containergallery {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: #F7F0D5;
+}
+
+#containerShop {
+    width: 100%;
+    margin:  auto;
+    height: auto;
+    background-color: #F7F0D5;
+}
+
+#containerContact {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-image: url(../pictures/contact.jpeg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 380px; 
+}
+
+
+
+.mainNav {
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    position: fixed;
+    top: 0px;
+    background-color: #fffffff0;
+    width: 1280px;
+    height: 60px;
+    z-index: 2000;
+}
+
+    .mainNav > ul > li {
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        font-weight: 600;
+        font-size: small;
+    }
+
+    .mainNav > ul {
+        display: block;
+        position: relative;
+        top: 18px;
+       
+        width: 700px;
+    }
+
+    .mainNav ul li ul {
+        display: none;
+        position: absolute;
+        padding-right: 0px;
+       
+        width: 100px;
+        border: 0.5px solid #fffffff0;
+        border-top: 0px;
+        border-radius: 0px 0px 5px 5px;
+        background-color: #fffffff0;
+    }
+
+nav ul li ul li {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
+}
+
+.mainNav ul li:hover ul {
+    display: block;
+    filter: drop-shadow(2px 2px 2px #bdafa5 );
+}
+
+.mainNav ul li ul li:hover {
+    background-color: #fffffff0;
+}
+
+.mainNav ul li ul li:last-child:hover {
+    border-radius: 0px 0px 30px 30px;
+}
+
+.mainNav > ul > li > a {
+    text-decoration: none;
+    color: #b1a98f;
+    font-size: 1.6em;
+}
+
+
+.mainNav > ul > li ul a {
+    text-decoration: none;
+    color: #b1a98f;
+    font-size: 1.2em;
+}
+
+h1 {
+    display: block;
+    position: relative;
+    top: 150px;
+    right: 100px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: right;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+#header2 h1 {
+    font-size: 4em;
+}
+
+h2 {
+    position: relative;
+    top: 100px;
+    right: 80px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: right; 
+}
+
+
+#main1 {
+    width: 1280px;
+    position: absolute;
+}
+
+
+#header1 {
+    width: 1280px;
+    margin: 0 auto;
+    height: 535px;
+}
+
+
+#header2 {
+    width: 1280px;
+    position: absolute;
+   top: 60px;
+}
+
+#homeblurb {
+    margin-top: 170px;
+    background-color: #ffffff;
+    width: 120px;
+    height: 45px;
+    filter: drop-shadow(1px 1px 1px #bdafa5 );
+    position: relative;
+    right: 100px;
+}
+
+#first {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+}
+
+#main1 section {
+    height: 380px;
+    margin: 0 auto;
+    position: absolute;
+    width: 1280px;
+}
+
+#main4 section {
+    margin: 0 auto;
+    position: absolute;
+    width: 1280px;
+    margin-top: 120px;
+}
+
+.moreInfo {
+    margin: 0 auto;
+    position: absolute;
+    width: 1280px;
+    margin-top: 300px;
+}
+
+
+
+
+#secondry {
+    font-family:'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+   
+    line-height: 150%;
+    margin-left: 500px;
+    position: relative;
+    right: 100px;
+}
+
+#main1 #secondry {
+    margin-top: 250px;
+}
+
+
+
+#pig {
+    position: relative; right: 260px;  top: 200px;
+  
+}
+
+
+#kng {
+    position: relative; right: 265px;  top: 420px;
+}
+
+#fish {
+    position: relative; right: 270px;  top: 700px;
+    
+}
+
+
+
+.levels {
+    display: inline-block;
+ margin:auto;
+    position: absolute;
+}
+
+.levels a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+
+
+#easy {
+    position: relative; right: 520px; top: 140px; font-weight: bold;
+}
+
+#medium {
+    position: relative;
+    right: 660px;
+    top: 230px;
+    font-weight: bold;
+}
+
+#hard {
+    position: relative;
+    right: 450px;
+    top: 605px;
+    font-weight: bold;
+}
+
+
+.levels img:hover {
+    
+    filter: drop-shadow(10px 10px 10px #DDD3B6 );
+}
+
+
+#arrow {
+    
+    display: inline-block;
+    position: relative;
+    right: 640px;
+    top: 150px;
+    margin: auto;
+}
+
+#moreinfo {
+    position: absolute;
+    width: 1280px;
+    top: 630px;
+    height: 365px;
+}
+
+    #moreinfo > div > div {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    #moreinfo h3 {
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #moreinfo > div {
+        width: 1000px;
+        margin: auto;
+    }
+
+#facts {
+    float: left;
+}
+
+.footernav {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fffffff0;
+    width: 1280px;
+    height: 60px;
+    z-index: 2000;
+    display: inline-flex
+}
+
+#footernavodot {
+  
+    background-color: #fffffff0;
+    width: 1280px;
+    height: 60px;
+    z-index: 2000;
+  
+}
+
+#footernavcontact {
+    
+    background-color: #fffffff0;
+    width: 1280px;
+    height: 60px;
+    z-index: 2000;
+  
+}
+
+.footernav ul {
+    display: block;
+    position: relative;
+    
+    width: 4000px;
+    height: 20px;
+    top: 20px;
+}
+
+    .footernav ul li {
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        font-weight: 900;
+        margin: auto;
+    }
+
+        .footernav ul li a {
+            text-decoration: none;
+            color: #b1a98f;
+            font-size: 0.9em;
+        }
+
+#footermain {
+    margin-top: 1000px;
+}
+
+
+
+.breadnav li {
+    display: inline-block;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 1em;
+}
+
+    .breadnav li:last-child {
+        color: #000000;
+    }
+
+    .breadnav li:first-child a {
+        color: black;
+        padding-left: 2px;
+    }
+
+.breadnav ul {
+    width: 200px;
+    position: relative;
+    padding-right: 0px;
+}
+
+.breadnav {
+    padding-right: 80px;
+    z-index: 100;
+}
+
+
+
+
+#conctactimg:hover {
+    width: 100%;
+    height: auto;
+    max-height: 6100px;
+    filter: drop-shadow(3px 3px 3px #bdafa5 );
+} 
+
+#container footer {
+    position: relative;
+    margin-top: 600px;
+}
+
+#container footer div {
+        position: relative;
+    }
+
+#container2 footer {
+    position: relative;
+    margin-top: 490px;
+} 
+
+#container2 footer div {
+        position: relative;
+    } 
+
+#main3 {
+    position: relative;
+    top: 80px;
+  
+}
+
+form {
+ 
+    width: 300px;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    display: block;
+    position: relative;
+    right: 100px;
+    opacity: 0.8;
+
+
+}
+
+.star {
+    text-align: right;
+    font-weight: bold;
+    color: indianred;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+} 
+
+#main3 > div p {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 1.3em;
+    padding: 5px;
+} 
+
+form label, legend {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 1em;
+
+    
+} 
+
+.label {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+} 
+
+#Submit1 {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(175, 147, 138);
+    filter: drop-shadow(2px 2px 2px #bdafa5 );
+} 
+
+#Submit1:hover {
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(160, 121, 121);
+        filter: drop-shadow(2px 2px 2px #bdafa5 );
+    } 
+
+.gender {
+    margin-right: 10px;
+} 
+
+#text {
+    padding-top: 20px;
+} 
+
+.footernav ul li:first-child:after, .footernav ul li:nth-child(2):after {
+    content: "|";
+    padding-right: 22px;
+    color: #DDD3B6;
+}
+
+.mainNav img {
+    height: 20px;
+    width: 20px;
+}
+
+#navimg img {
+    width: 800px;
+    position: relative; right: 300px;
+    filter: drop-shadow(3px 3px 3px #bdafa5);
+}
+
+#boatimg {
+    width: 400%;
+    position: relative; right: 460%; top: -55px;
+    filter: drop-shadow(2px 2px 2px #bdafa5);
+ 
+
+}
+    #boatimg:hover {
+        animation: shake 1s;
+        animation-iteration-count: infinite;
+    }
+@keyframes shake {
+    0% {transform: translate(1px, 1px) rotate(0deg);
+    }10% {transform: translate(-1px, -2px) rotate(-1deg);
+    }20% {transform: translate(-3px, 0px) rotate(1deg);
+    }30% {transform: translate(3px, 2px) rotate(0deg);
+    }40% {transform: translate(1px, -1px) rotate(1deg);
+    }50% {transform: translate(-1px, 2px) rotate(-1deg);
+    }60% {transform: translate(-3px, 1px) rotate(0deg);
+    }70% {transform: translate(3px, 1px) rotate(-1deg);
+    }80% {transform: translate(-1px, -1px) rotate(1deg);
+    }90% {transform: translate(1px, 2px) rotate(0deg);
+    }100% {transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+
+/* animals gallery */header2
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+.mySlides {
+    display:none ; position: relative; 
+    top:0; right: 28%;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+
+.next {
+    left: 0; 
+    border-radius: 3px 0 0 3px;
+}
+
+   
+    .prev:hover,
+    .next:hover {
+        background-color: mintcream;
+    }
+
+
+.numbertext {
+    color: black;
+    font-size: 24px;
+    padding: 8px 12px;
+    position: relative;
+    right: -300px;
+    top: 0;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: mintcream;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px 16px;
+    color: darkslategrey;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.5%;
+}
+ 
+.origami {
+    opacity: 0.6;
+}
+
+    .active,
+    .origami:hover {
+        opacity: 1;
+    }
+
+    .button {
+        position: fixed;
+        background-color: rosybrown;
+        border-top: 0px;
+        border-radius: 0px 30px 30px 0px;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin: 50px 990px;
+        display: block;
+        padding: 10px 20px;
+        width: 250px;
+        z-index: 2000;
+        filter: drop-shadow(3px 3px 3px #bdafa5 );
+    }
+    .button:hover {
+        background-color: rgb(160, 121, 121);
+        filter: drop-shadow(2px 2px 2px #bdafa5 );
+    }
+
+    #animal1 {
+        width: 110px;
+        height: 100px;
+    }
+    #animal2 {
+        position: relative;
+        right: 10px;
+        width: 150px;
+        height: 90px;
+    }
+    #animal3 {
+        position: relative;
+        left: 35px;
+        width: 200px;
+        height: 100px;
+    }
+    #animal4 {
+        position: relative;
+        right: 20px;
+        width: 110px;
+        height: 100px;
+    }
+    #animal5 {
+        position: relative;
+        right: 70px;
+        width: 90px;
+        height: 90px;
+    }
+    #animal6 {
+        position: relative;
+        right:110px;
+        width: 120px;
+        height: 100px;
+    }
+
+    #animaLevel1 {
+        position: relative;
+        right: 65px;
+        width: 500px;
+        height: 500px;
+    }
+    #animaLevel2 {
+        position: relative;
+        right: 40px;
+        width: 550px;
+        height: 500px;
+    }
+    #animaLevel3 {
+        position: relative;
+        right: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    #animaLevel4 {
+        position: relative;
+        right: 50px;
+        width: 500px;
+        height: 500px;
+    }
+    #animaLevel5 {
+        position: relative;
+        right: 20px;
+        width: 550px;
+        height: 500px;
+    }
+    #animaLevel6 {
+        position: relative;
+        right: 50px;
+        width: 500px;
+        height: 500px;
+    }
+
+/* shop */
+
+.categorize li{
+    display: inline-block;
+    position: relative; right: 180px; bottom:100px;
+    margin: 35px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+
+    border-radius: 8px;
+    text-align: center;
+    height: 200px;
+    width: 360px;
+
+}
+
+.categorize a {
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 100%;
+    text-align: center;
+    color: black;
+    background-color: #DDD3B6;
+    display: block;
+    width: 120px;
+    
+    filter: drop-shadow(3px 3px 3px #bdafa5 );
+    position: relative; top: 350px; right: 120px;
+    text-decoration: none;
+}
+
+#picStore {
+    filter: drop-shadow(3px 3px 3px #bdafa5 );
+    width: 300px;
+}
+
+#mapNav ul:first-child > li {
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    top: 150px;
+    right: 100px;
+   
+}
+
+#mapNav ul li {
+    margin-bottom: 10px;
+    width: 80px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 900;
+    font-size: small;
+}
+
+nav ul {
+    list-style: none;
+}
+
+ol, ul, li {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+} 
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+#mapNav ul:first-child > li > a {
+    font-weight: 800;
+    font-size:x-large;
+    color: black;
+    filter: drop-shadow(1px 1px 1px #b1a98f) ;
+}
+
+
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+    color:black;
+}
+
+ul ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+#mapNav ul li ul li:first-child {
+    padding-top: 20px;
+}
+
+#mapNav .notActive {
+    color: palevioletred;
+}
+
+#mapNav a {
+    font-size: 1.5em;
+}
+
+#mapNav ul li ul {
+    padding: 0px;
+}
+
+.mainTitle {
+    padding: 15px;
+    padding-right: 30px;
+    font-size: 2.7em;
+    position: relative;
+    top: 80px;
+    right: 70px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700; 
+
+}
+
+
+.breadCrumbs li {
+            content: "<";
+            padding-right: 80px;
+            display: inline-block;
+            font-size: 1em;
+            padding-bottom: 5px;
+            position: relative;
+            top: 80px;
+            left: 13px;
+            right: 110px;
+            font-family: 'Noto Sans Hebrew', sans-serif;
+            padding: 1px;
+            text-decoration-line: underline;
+            z-index: 100;}
+
+            .breadCrumbs li:last-child {
+                text-decoration: none !important;
+                color:green;
+            }
+
+            .breadCrumbs li:last-child::after {
+                content: ":";
+            }
+
+
+.mainheigth {
+    height: 740px;
+}
+
+#main4 h3 {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    
+}
+
+#main6 {
+    position: relative;
+    top: 80px;
+ 
+}
+#firstsection p {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 150%;
+    margin-left: 500px;
+    position: relative;
+    right: 100px;
+}
+
+#GIF{
+    position: relative;
+    top: 20px;
+    right: 1000px;
+    width: 100px;
+}
+
+
+
+  
+
+#main1 h3 {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    display: block;
+    position: relative;
+    top: 1000px;
+    right: 100px;
+}
+
+
+#footermain1 {
+    margin-top: 1300px;
+}
+#footermain2 {
+    margin-top: 150px;
+}
+#footermain3 {
+    margin-top: 150px;
+}
+
+.imageHOME {
+    position: relative;
+    width: 40%;
+    opacity: 1;
+    display: block;
+    margin-top: 950px;
+    right: 380px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 3px solid #fffffff0;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.origamiGIF:hover .imageHOME {
+    opacity: 0.3;
+}
+
+.origamiGIF:hover .middle {
+    opacity: 1;
+}
+
+.textGIF {
+    margin-top: 1700px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+#containerMap {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-image: url(../pictures/paper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+
+#mapNav {
+    text-align: center;
+    display: block;
+    position: relative;
+    right: 50px;
+    z-index: 4;
+}
+#pinkMap {
+    position:relative;
+    width: 80%;
+    left:35px;
+    bottom: 250px;
+    z-index: 1;
+    opacity:0.4;
+}
+
+.mainTitle1 {
+    
+    padding-right: 30px;
+    font-size: 2.7em;
+    position: relative;
+    top: 80px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    display: block;
+    right: 100px;
+    opacity: 0.6;
+}
+
+#mainContant {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    line-height: 170%;
+    width: 800px;
+    position: relative;
+    right: 100px;
+    top: px;
+    display: flex;
+}
+
+#main5 {
+    position: relative;
+    right: 100px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+}
+#GIFdiv {
+    display: flex;
+    position: relative;
+    right: 1000px;
+}
+
+#main5 section {
+    font-size: 1.3em;
+    position: absolute;
+}
+
+#main5 {
+    position: relative;
+    right: 100px;
+    margin-top: 60px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+}
+
+
+#section2 {
+    padding-top: 120px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    text-align: right;
+    font-size: 1.3em; }
+
+    #hit {
+        position: absolute;
+        width: 300px;
+        margin: auto;
+        top: 450px;
+        right: 440px;
+    }
+
+    #hit img {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    #hit a {
+        color: black;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        padding-right: 35px;
+    }
+
+    a {
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: black;
+    }
+
+    #section2 ul {
+        padding-top: 20px;
+    }
+    #section2 li {
+        text-align: right;
+        font-weight: 600;
+    }
+
+    .breadCrumbs li {
+        content: "<";
+        display: inline-block;
+        font-size: 1em;
+        position: relative;
+        top: 80px;
+        right: 70px;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        text-decoration-line: underline;
+        z-index: 100;
+    }
+
+    .breadCrumbs li:last-child {
+        text-decoration: none !important;
+        color: green;
+    }
+
+    .mainTitle4 {
+        padding: 15px;
+        padding-right: 30px;
+        font-size: 2.7em;
+        position: relative;
+        top: 120px;
+        right: 100px;
+        font-family: 'Noto Sans Hebrew', sans-serif;
+        font-weight: 700;
+    }
